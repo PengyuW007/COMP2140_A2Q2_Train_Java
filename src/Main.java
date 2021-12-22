@@ -26,7 +26,7 @@ public class Main {
             nextLine = inFile.readLine();
 
             while(nextLine!=null){
-                
+
             }
 
         }catch (Exception e){
