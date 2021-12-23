@@ -26,7 +26,13 @@ public class Main {
             nextLine = inFile.readLine();
 
             while(nextLine!=null){
+                System.out.println("Processing command: "+ nextLine);
 
+                tokens=nextLine.split(" ");
+
+                if(tokens[0].equals("PICKUP")){
+
+                }
             }
 
         }catch (Exception e){
