@@ -33,6 +33,7 @@ public class Main {
                 if(tokens[0].equals("PICKUP")){
 
                 }
+                inFile.readLine();
             }
 
         }catch (Exception e){
